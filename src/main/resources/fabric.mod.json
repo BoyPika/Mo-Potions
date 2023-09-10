@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "mo-potions",
+	"version": "${version}",
+	"name": "Mo' Potions",
+	"description": "This adds a Luck, Decay, and Glowing Potions into a Server-Side Mod",
+	"authors": [
+		"BoyPika"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPLv3",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.boypika.MoPotions"
+		]
+	},
+	"mixins": [
+		"mo-potions.mixins.json"
+	],
+	"depends": {
+		"minecraft": "~1.20.1"
+	}
+}
