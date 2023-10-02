@@ -21,7 +21,6 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	modImplementation include('com.github.BoyPika:pikaconfiga:35466e1171')
-	modImplementation include('de.siphalor:nbtcrafting3-1.19:3.0.0-alpha.3+mc1.19')
 }
 
 processResources {
